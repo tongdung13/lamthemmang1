@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+let array = [3,5,7,8,76,80];
+let max = 0;
+let sum = 0;
+let num = array.length;
+let avg = 0;
+for (let i = 0; i < array.length; i++){
+    if(array[i] > max){
+        max = array[i];
+    }
+    sum += array[i];
+    avg = sum/num;
+}
+document.write("so lon nhat: " + max + "<br>" + "trung binh cong: " + avg);
+</script>
+</body>
+</html>
